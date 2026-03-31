@@ -1,11 +1,38 @@
-<div align="center">
+# UrbanVibe - Perfumería Urbana
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Este es un proyecto de tienda virtual de perfumes de lujo desarrollado con **React**, **Vite**, **Tailwind CSS** y **Framer Motion**.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 Instrucciones de Configuración Local
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Para ejecutar este proyecto en tu computadora usando **Visual Studio Code**, sigue estos pasos:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### 1. Requisitos Previos
+- Tener instalado [Node.js](https://nodejs.org/) (versión 18 o superior).
+- Un editor de código (recomendado Visual Studio Code).
 
-</div>
+### 2. Instalación
+Abre una terminal en la carpeta del proyecto y ejecuta:
+```bash
+npm install
+```
+
+### 3. Configuración de API (Opcional para IA)
+Si deseas usar el consultor de fragancias con IA, crea un archivo `.env` en la raíz y añade tu clave de API de Google AI Studio:
+```env
+GEMINI_API_KEY=tu_clave_aqui
+```
+
+### 4. Ejecución
+Para iniciar el servidor de desarrollo:
+```bash
+npm run dev
+```
+Luego abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+## 🛠️ Tecnologías utilizadas
+- **React 19**
+- **Vite** (Build tool)
+- **Tailwind CSS** (Estilos)
+- **Framer Motion** (Animaciones)
+- **Lucide React** (Iconos)
+- **Google Gemini API** (Consultor de IA)
